@@ -1,10 +1,9 @@
 import telebot
 from telebot import types
 import random
-#Второй раз пишу бота с помощью telebot. Проще чем aiogram. Хотелось бы разобрать его подробнее на уроке ))
 a = 0
 b = 0
-bot = telebot.TeleBot('6102021384:AAHFhkkVd1L75xASGCv-Cw1y1_j_gPsBPGQ')
+bot = telebot.TeleBot('TOKEN')
 
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
 btn1 = types.KeyboardButton('Поздороваться')
